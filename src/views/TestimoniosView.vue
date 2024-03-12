@@ -1,8 +1,9 @@
 <template>
   <div class="my-8">
-    <h2>Testimonios Software Project Leader</h2>
+    <h2>Testimonios SPL</h2>
+    <h2>Edición Especial Mujeres TI</h2>
     <!-- Nombre del Team -->
-    <h3>Alhp</h3>
+    <h2>Team A</h2>
     <v-row class="row-container mt-9">
       <v-col v-for="testimonio in testimonios" :key="testimonio.id" cols="12" sm="6" md="4" lg="3">
         <v-card shaped class="mb-4">
@@ -52,13 +53,21 @@ export default {
 };
 </script>
 
-<style scoped>
-h2,
-h3 {
+<style lang="scss" scoped>
+@media only screen and (max-width: 600px) {
+
+  h2 {
+    font-size: 25px !important;
+    padding: 0 20px !important;
+  }
+
+}
+
+h2 {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
-  color: #165C66;
+  color: #240A34;
 }
 
 .headline {

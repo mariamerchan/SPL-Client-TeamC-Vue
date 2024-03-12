@@ -2,7 +2,7 @@
   <v-container>
     <h1>CRUD Testimonios</h1>
     <div class="btn-container">
-      <v-btn color="primary" @click="openCrearModal">Agregar Testimonio</v-btn>
+      <v-btn class="add-testimony-btn" @click="openCrearModal">Agregar Testimonio</v-btn>
     </div>
 
     <v-alert v-if="mensaje" :type="alertColor" dismissible @input="mensaje = ''">
@@ -218,16 +218,37 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    margin: 20px 0;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center !important;
+    margin: 20px;
+  }
+
+}
+
 h1 {
   font-weight: bold;
-  color: #165C66;
+  color: #240A34;
 }
 
 .btn-container {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 5%;
+}
+
+.add-testimony-btn {
+  background-color: #E1AFD1 !important;
+  color: #240A34;
 }
 
 .headline {
