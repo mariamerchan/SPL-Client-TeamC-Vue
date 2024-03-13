@@ -2,7 +2,7 @@
   <v-container>
     <h1>CRUD Testimonios</h1>
     <div class="btn-container">
-      <v-btn class="add-testimony-btn" @click="openCrearModal">Agregar Testimonio</v-btn>
+      <v-btn color="primary" @click="openCrearModal">Agregar Testimonio</v-btn>
     </div>
 
     <v-alert v-if="mensaje" :type="alertColor" dismissible @input="mensaje = ''">
@@ -237,7 +237,7 @@ export default {
 
 h1 {
   font-weight: bold;
-  color: #240A34;
+  color: #165c66;
 }
 
 .btn-container {
@@ -246,10 +246,6 @@ h1 {
   margin-bottom: 5%;
 }
 
-.add-testimony-btn {
-  background-color: #E1AFD1 !important;
-  color: #240A34;
-}
 
 .headline {
   font-size: 20px;

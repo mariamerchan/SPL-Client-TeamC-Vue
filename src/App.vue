@@ -1,7 +1,7 @@
 <template>
   <v-app class="app-container">
     <div class="app-background">
-      <v-app-bar app color="#240A34" height="110" dark>
+      <v-app-bar app color="#165c66" height="110" dark>
         <div class="d-flex justify-space-between align-center header-container">
           <img alt="Lihtsus Logo" src="./assets/lihtsus-logo.png" width="100" />
           <div class="btn-container-app">

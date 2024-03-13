@@ -67,7 +67,7 @@ h2 {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color: #240A34;
+  color: #165c66;
 }
 
 .headline {
