@@ -1,9 +1,8 @@
 <template>
   <div class="my-8">
     <h2>Testimonios SPL</h2>
-    <h2>Edición Especial Mujeres TI</h2>
     <!-- Nombre del Team -->
-    <h2>Las Hacktivistas</h2>
+    <h2>Team A</h2>
     <v-row class="row-container mt-9">
       <v-col v-for="testimonio in testimonios" :key="testimonio.id" cols="12" sm="6" md="4" lg="3">
         <v-card shaped class="mb-4">

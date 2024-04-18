@@ -65,7 +65,6 @@ export default {
 
 .app-background {
   background: rgba(255, 255, 255, 0.5);
-  background-image: url('./assets/women-background.svg');
   background-size: cover;
   height: 100vh;
 }
