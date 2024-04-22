@@ -6,7 +6,7 @@
           <img alt="Lihtsus Logo" src="./assets/lihtsus-logo.png" width="100" />
           <div class="btn-container-app">
             <v-btn class="btns" text to="/" exact>
-              Testimonios
+              Ofrecimientos
             </v-btn>
 
             <v-btn class="btns" text to="/crud" exact>
@@ -57,7 +57,7 @@ export default {
     gap: 3px;
 
     .btns {
-      width: 120px;
+      width: 150px;
     }
   }
 }
