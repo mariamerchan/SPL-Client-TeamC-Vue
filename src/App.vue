@@ -1,12 +1,13 @@
 <template>
   <v-app class="app-container">
     <div class="app-background">
-      <v-app-bar app color="#165c66" height="110" dark>
+      <v-app-bar app color="#051330" height="110" dark>
         <div class="d-flex justify-space-between align-center header-container">
-          <img alt="Lihtsus Logo" src="./assets/lihtsus-logo.png" width="100" />
+          <!-- <img alt="Lihtsus Logo" src="./assets/lihtsus-logo.png" width="100" /> -->
+          <v-app-bar-title style="width: 200px;">Ofrecer App</v-app-bar-title>
           <div class="btn-container-app">
             <v-btn class="btns" text to="/" exact>
-              Testimonios
+              Ofrecimientos
             </v-btn>
 
             <v-btn class="btns" text to="/crud" exact>
@@ -57,11 +58,10 @@ export default {
     gap: 3px;
 
     .btns {
-      width: 120px;
+      width: 150px;
     }
   }
 }
-
 
 .app-background {
   background: rgba(255, 255, 255, 0.5);
