@@ -1,9 +1,9 @@
 <template>
   <div class="my-8">
-    <h2>Ofrecer 🤝 SPL</h2>
+    <h2>Ofrecer 🤝 Amistad - Emprendimiento </h2>
     <h3>¿Qué tenemos para ofrecer?</h3>
     <!-- Nombre del Equipo-->
-    <h2>Team Kaizen </h2>
+    <h2>Team Kaizen</h2>
     <v-row class="row-container mt-9">
       <v-col v-for="Amistad-Emprendimiento" :key="ofrecimiento.id" cols="12" sm="6" md="4" lg="3">
         <v-card shaped class="mb-4">
