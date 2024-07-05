@@ -1,6 +1,6 @@
 <template>
   <div class="my-8">
-    <h2>Ofrecer 🤝 Amistad - Emprendimiento </h2>
+    <h2>Ofrecer 🤝 Amistad - Emprendimiento</h2>
     <h3>¿Qué tenemos para ofrecer?</h3>
     <!-- Nombre del Equipo-->
     <h2>Team Kaizen</h2>
