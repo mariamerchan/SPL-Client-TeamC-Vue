@@ -4,11 +4,6 @@
     <div class="btn-container">
       <v-btn color="primary" @click="openCrearModal">Crear Ofrecimiento</v-btn>
     </div>
-
-    <v-alert v-if="mensaje" :type="alertColor" dismissible @input="mensaje = ''">
-      {{ mensaje }}
-    </v-alert>
-
     <v-data-table :headers="headers" :items="ofrecimientos" :items-per-page="5" class="elevation-1">
       <!-- eslint-disable-next-line vue/valid-v-slot -->
       <template v-slot:item.actions="{ item }">
